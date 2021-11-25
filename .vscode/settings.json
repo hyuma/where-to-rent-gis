@@ -18,5 +18,20 @@
   },
   "python.sortImports.args": [
     "--profile=black"
+  ],
+
+  "python.linting.enabled": true,
+  "python.linting.lintOnSave": true,
+  "[python]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": false,
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": true,
+    },
+  },
+
+  "cSpell.words": [
+    "lxml",
+    "madori"
   ]
 }
