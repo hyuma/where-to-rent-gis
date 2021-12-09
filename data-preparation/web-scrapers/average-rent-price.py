@@ -39,7 +39,7 @@ def main():
         "4DK",
     ]
     # CSV カラム名
-    COLUMN_NAMES = ["station"] + MADORI_NAMES
+    COLUMN_NAMES = ["station_name"] + MADORI_NAMES
     output_rows: list[list] = []
     output_rows.append(COLUMN_NAMES)
 
